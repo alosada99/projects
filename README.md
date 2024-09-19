@@ -1,2 +1,1 @@
 # projects
-# Project 2
