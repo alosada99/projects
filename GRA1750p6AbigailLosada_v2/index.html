@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STEPHEN'S DELI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css"> 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+		wrapper{
+			display: block;
+			margin:auto;
+		}
+		
+		
+        body {
+            font-family: 'Bebas Neue', sans-serif;
+            color: #333;
+			font-size: 125%;
+        }
+
+        header {
+            font-family: "bebas neue";
+            font-size: 30px;
+            background-color: #c6413c; 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        #header-image {
+            align-content: flex-end;
+            width: 200%;
+            max-width: 300px;
+            padding-top: 10px;
+            margin: 0 auto;
+        }
+       #order-button {
+            display: inline-block;
+            background-color: white;
+            color: black;
+            border: #1F0808;
+            padding: 10px 10px;
+            font-size: 30px;
+            font-family: 'Bebas Neue';
+            border-radius: 5px;
+            text-transform: uppercase;
+            margin-top: 0px;
+        }
+		
+		#order-button:hover{
+			cursor: pointer;
+			opacity: 0.6;
+			
+			
+		}
+		
+        #banner-image {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #banner-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .banner-text {
+            font-family: 'Oswald';
+            font-size: 24px;
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+            padding: 0 20px;
+        }
+
+ 
+        #menu-section {
+            background-image: url("register-photo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+            text-align: center;
+            font-size: 60px;
+        }
+
+		#menu-section h1 {
+				text-shadow: 5px 2px 3px #e74c3c;
+				}
+        #menu-section h2 {
+            font-size: 40px;
+			
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        #menu-section img {
+            width: 50%;
+            margin: 10px;
+        }
+
+		#menu-section {
+            font-size: 30px;
+           }
+		
+		#menu-button {
+			font-size: 40px;
+			background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 10px;
+            font-family: 'Bebas Neue';
+			margin-bottom: 20px;
+			border-radius: 5px;	
+			box-shadow: 5px 10px 8px 10px #888888;
+		}
+		#menu-button:hover{
+			cursor: pointer;
+			opacity: 0.6;
+		}
+		
+		h1 {
+			color:white;
+			font-family:'Oswald';
+			
+		}
+		
+		h2{
+			font-family: 'Oswald';
+			
+		}
+
+        #information {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            font-family: 'Oswald';
+        }
+		
+
+        footer {
+            padding: 10px;
+            background-color: #f4f4f4;
+            text-align: center;
+            color: #666;
+			font-family: 'Oswald';
+			font-size: 30px;	
+        }
+
+		.fa {
+ 			color: #e74c3c;
+			text-align: center;
+			font-size: 100px;
+			width: 150px;
+			text-decoration: none;
+			margin: 5px 2px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #e74c3c;
+		  color: white;
+		}
+
+		.fa-instagram {
+		  background: #e74c3c;
+		  color: white;
+		}
+		
+		    @media (min-width: 1000px) {
+				
+            body {
+                font-size: 100%;
+            }
+		
+            #header-image {
+                width: 100%;
+                max-width: 400px;
+            }
+
+            #order-button {
+                font-size: 24px;
+                padding: 10px 20px;
+            }
+
+            #banner-image img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .banner-text {
+                font-size: 18px;
+                padding: 0 40px;
+            }
+
+            #menu-section {
+                font-size: 40px;
+                padding: 40px;
+            }
+				  
+ 			#menu-section h2 {
+					display:inline-block; 
+				  }
+            #menu-section img {
+                width: 95%;
+				height: auto;
+				display:in-block;
+				object-fit: cover;	
+            }
+				
+				
+			#menu-section li {
+				width: 48%;
+				box-sizing: border-box;
+				display:inline-block;
+				vertical-align: top;
+				background-color: rgba(0, 0, 0, 0.5);
+				border: 1px;
+  				padding: 10px;
+  				box-shadow: 5px 10px 8px 10px #888888;
+				}
+				 
+            #menu-button {
+                font-size: 28px;
+                padding: 10px 20px;
+            }
+
+            #information {
+                font-size: 20px;
+                padding: 40px;
+            }
+
+            footer {
+                font-size: 18px;
+            }
+
+            .fa {
+                font-size: 50px;
+                width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <wrapper class="header">
+        <img src="Stephens-Deli.png" alt="Stephen's Delicatessen Logo" id="header-image"><br>
+        <p>Established 1954</p><br>
+        <a href="https://order.online/store/kush-by-stephens-hialeah-235103/?hideModal=true&pickup=true&redirected=true" target="_blank">
+            <button id="order-button">Order Online</button>
+        </a>
+    </wrapper>
+</header>
+
+<main>
+    <wrapper>
+        <section id="banner-image">
+            <img src="stephens-deli.jpg" alt="Pastrami Sandwich">
+        </section>
+        <p class="banner-text">THE OLDEST OPERATING DELI IN MIAMI-DADE.<br>
+            This old-school deli offers traditional New York–style sandwiches, plus beer and cocktails.
+        </p>
+        </wrapper>
+		<wrapper>
+            <br>
+            <section id="menu-section">
+                <a href="https://kushhospitality.com/wp-content/uploads/2024/07/KUSH_HIALEAH_MENU_06062024_V6_r1-compressed.pdf" target="new">
+                    <button id="menu-button">Full Menu</button>
+                </a><br>
+                <h1>FEATURED ITEMS</h1>
+				<ul>
+                <li><h2>Goyish Croquetas</h2><br>
+					<img src="croquetas.jpg" alt="Goyish Croquetas"></li>
+               <li><h2>The Rachel</h2><br>
+                <img src="rachel.jpg" alt="Rachel Sandwich">
+					</li>
+					</ul>
+                <ul> 
+				<li><h2>Frita Burger</h2><br>
+                <img src="frita-burger.jpg" alt="Frita Burger"></li>
+               <li> <h2>Kush Cubano</h2><br>
+                <img src="cubano.jpg" alt="Cuban Sandwich"> </li>
+					</ul>
+            </section>
+        </wrapper>
+        <wrapper>
+            <section id="information">
+				
+                <h2>Address and Phone</h2>
+                <p>1000 E 16th Street<br>
+                Hialeah, Florida<br>
+                305-887-8863</p><br>
+                <h2>Hours</h2>
+                <p>Monday-Tuesday: 11:30am-4pm<br>
+                    Wednesday-Thursday: 11:30am-9pm<br>
+                    Friday-Saturday: 11:30am-10pm<br>
+                    Sunday: 11:30am-9pm<br> </p><br>
+				<h2>Socials</h2>
+				<a href="https://www.facebook.com/Kushhialeah/" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/kushhialeah/?hl=en" class="fa fa-instagram"></a>
+            </section>
+        </wrapper>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2024, Abigail Losada. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+
+</body>
+</html>
