@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Clueless</title>
+<link rel="stylesheet" href="https://use.typekit.net/aim4pdz.css">
+
+<style type="text/css"> 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        color: white;
+		cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol151.png), auto;
+    }
+
+    wrapper {
+        display: block;
+        margin: auto;
+        height: auto;
+        align-content: center;
+    }
+
+    body {
+        font-family: 'grange', sans-serif;
+    }
+
+    header {
+        background-image: url("Embedded Assets/emclueless_header.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-size: cover;
+        height: 400px; 
+    }
+
+    header img {
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+	
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+		margin-top: 100px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 20px 20px 20px;
+		margin-top:auto;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 4.5px;
+        background-color: hsla(0, 0%, 0%, 1.00);
+        transition: background-color 0.3s, text-shadow 0.3s; 
+		
+    }
+
+    li:hover {
+        background-color: hsla(50, 70%, 50%, 1.00); 
+        text-shadow: 2px 2px 50px #000000, -2px -2px 50px #000000;
+        letter-spacing: 5px;
+		box-shadow: 0 0 50px #FFFFE0, inset 0 0 15px #000;
+    }
+	
+
+    main {
+        background-image: url("Embedded Assets/emplaid_background.png");
+		background-image: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+        max-height: 1200px;
+    }
+	
+    main iframe {
+        width: 800px; 
+        height: 450px;
+      	border: 5px solid #FCd12A;
+    	box-shadow: 0 0 15px #FFFFE0, inset 0 0 15px #000;
+    }
+	main iframe:hover {
+		border: 5px solid ##FCd12A;
+    	box-shadow: 0 0 50px #FFFFE0, inset 0 0 15px #000;
+	}
+	
+  .image-container {
+  position: relative;
+  width: 800px;
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: -40px;
+  
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-container img:first-child {
+  animation: fadeInOut 9s infinite;
+}
+
+.image-container img:nth-child(2) {
+  animation: fadeInOut 9s infinite 3s; 
+}
+
+.image-container img:nth-child(3) {
+  animation: fadeInOut 9s infinite 6s; 
+}
+
+@keyframes fadeInOut {
+  0%, 33% {
+    opacity: 1;
+  }
+  34%, 100% {
+    opacity: 0;
+  }
+}
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+        background-color: hsla(9, 8%, 18%, 1.00);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+	
+    
+</style> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="Embedded Assets/emclueless_logo.png" alt="Clueless logo">
+			
+            <ul>
+                <a href="https://www.imdb.com/title/tt0112697/" target="new"><li>Cast</li></a>
+                <a href="https://open.spotify.com/album/3OrviLrUARxsTuGdWdQTMh" target="new"><li>Soundtrack</li></a>
+                <a href="https://www.fandango.com/clueless-36082/movie-overview" target="new"><li>Tickets</li></a>
+            </ul>
+        </nav>    
+    </header>
+    
+    <wrapper>
+        <main>
+			
+            <iframe src="https://www.youtube.com/embed/Mgjwq1ZzdPQ?si=XMP44xrDmBAM1SLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<div class="image-container">
+            <img src="Embedded Assets/Polaroids_1.png" alt="Clueless cast">
+			<img src="Embedded Assets/Polaroids_2.png" alt="Clueless cast">
+			<img src="Embedded Assets/Polaroids_3.png" alt="Clueless cast">
+				</div>
+        </main>    
+    </wrapper>
+
+    <footer>
+        <p>&copy; 2024, Abigail Losada. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+</body>
+</html>
